@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.Company {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 22rem;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 3px #ccc; */
+  box-shadow: rgb(176 176 176) 0px 0px 0px 1px inset;
+  margin: 10px;
+  box-sizing: border-box;
+  transition: all 1 ease-in;
+  background-color: white;
+}
+
+.Company:hover {
+  box-shadow: rgb(0 0 0) 0px 0px 0px 2px inset;
+  background-color: #eee;
+  transform: scale(1.1);
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companyLogo {
+  margin: 10px;
+}

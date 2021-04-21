@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap');
+
+.logo {
+  border: 3px solid black;
+}
+
+.home-wrapper {
+  font-family: 'PT sans', sans-serif;
+  height: 90vh;
+}
+
+.banner {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-name {
+  margin: 0;
+  color: white;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 12%;
+  left: 51%;
+}
+
+.banner-name h1 {
+  margin: 0;
+}
+
+.home-flex-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 90%;
+  margin: 15px auto;
+}
+
+.info {
+  width: 70%;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.next-head {
+  margin-left: 25%;
+}
+
+.quote {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.NewPerson {
+  width: 70%;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.NewPerson label {
+  display: block;
+  width: 60%;
+  margin: 15px auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+.NewPerson input,
+.NewPerson textarea,
+.NewPerson select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border: 1px solid #d0d0d0;
+  outline: none;
+  font: inherit;
+  margin: 15px 0px;
+}
+
+.NewPerson button {
+  margin: 20px 0;
+  margin-top: 30px;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid #13cbe7;
+  background-color: transparent;
+  color: #13cbe7;
+  cursor: pointer;
+}
+
+.NewPerson button:hover,
+.NewPerson button:active {
+  color: white;
+  background-color: #13cbe7;
+}

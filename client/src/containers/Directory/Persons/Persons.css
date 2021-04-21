@@ -1,0 +1,22 @@
+.Persons-wrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Persons-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.Persons {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 70%;
+  min-height: 80vh;
+  margin: auto;
+}

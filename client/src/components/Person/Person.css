@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.Person {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 22rem;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 3px #ccc; */
+  box-shadow: rgb(176 176 176) 0px 0px 0px 1px inset;
+  margin: 10px;
+  box-sizing: border-box;
+  transition: all 1 ease-in;
+  background-color: white;
+}
+
+.Person:hover,
+.Person:active {
+  box-shadow: black 0px 0px 0px 2px inset;
+  transform: scale(1.1);
+  background-color: #eee;
+}
+
+.linkedin {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailImage {
+  height: 25px;
+  margin: 10px;
+}

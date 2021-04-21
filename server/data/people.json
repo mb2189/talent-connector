@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Steve Rogers",
+    "work": "Full-time",
+    "email": "srogers@gmail.com",
+    "country": "United States",
+    "department": "Human Resources",
+    "title": "Global Head of People",
+    "linkedin": ""
+  },
+  {
+    "name": "Natasha Romanov",
+    "work": "Full-time",
+    "email": "nromanov@gmail.com",
+    "country": "United States",
+    "department": "Talent Acquisition",
+    "title": "Talent Acquisition Manager",
+    "linkedin": ""
+  },
+  {
+    "name": "Thor Odinson",
+    "work": "Contract",
+    "email": "todinson@gmail.com",
+    "country": "United States",
+    "department": "Engineering",
+    "title": "Project Manager",
+    "linkedin": ""
+  },
+  {
+    "name": "Steven Strange",
+    "work": "Full-time",
+    "email": "sstrange@gmail.com",
+    "country": "United States",
+    "department": "Technology",
+    "title": "Researcher",
+    "linkedin": ""
+  },
+  {
+    "name": "Peter Parker",
+    "work": "Full-time",
+    "email": "pparker@gmail.com",
+    "country": "United States",
+    "department": "Marketing",
+    "title": "Social Media Strategist",
+    "linkedin": ""
+  },
+  {
+    "name": "Bruce Banner",
+    "work": "Contract",
+    "email": "bbanner@gmail.com",
+    "country": "United States",
+    "department": "Human Resources",
+    "title": "People Programs Specialist",
+    "linkedin": ""
+  },
+  {
+    "name": "Tony Stark",
+    "work": "Full-time",
+    "email": "tstark@gmail.com",
+    "country": "United States",
+    "department": "Sales",
+    "title": "Regional Sales Manager",
+    "linkedin": ""
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "entity": "Google",
+    "location": "Mountain View, CA",
+    "contact": "Larry Page",
+    "title": "Marketing Intern",
+    "email": "lpage@google.com"
+  },
+  {
+    "entity": "Facebook",
+    "location": "Mountain View, CA",
+    "contact": "Mark Zuckerberg",
+    "title": "Talent Management",
+    "email": "mzuck@facebook.com"
+  },
+  {
+    "entity": "Twitter",
+    "location": "San Francisco, CA",
+    "contact": "Jack Dorsey",
+    "title": "Strategy Manager",
+    "email": "jdorsey@twitter.com"
+  },
+  {
+    "entity": "Nvidia",
+    "location": "Santa Clara, CA",
+    "contact": "Jensen Huang",
+    "title": "Head of Technology",
+    "email": "jhuang@nvidia.com"
+  },
+  {
+    "entity": "Apple",
+    "location": "United States",
+    "contact": "Tim Cook",
+    "title": "Software Engineer",
+    "email": "tcook@apple.com"
+  },
+  {
+    "entity": "Tesla",
+    "location": "Fremont, CA",
+    "contact": "Elon Musk",
+    "title": "Regional Sales Manager",
+    "email": "emusk@tesla.com"
+  }
+]

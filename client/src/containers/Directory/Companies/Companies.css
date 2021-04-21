@@ -1,0 +1,15 @@
+.Companies-body {
+  min-height: 90vh;
+}
+
+.Companies-header {
+  text-align: center;
+}
+
+.Companies {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
