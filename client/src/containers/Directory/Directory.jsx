@@ -2,9 +2,9 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 
 import './Directory.css';
-import Persons from './Persons/Persons';
+import Persons from '../Persons/Persons';
 import NewPerson from '../../components/NewPerson/NewPerson';
-import Companies from './Companies/Companies';
+import Companies from '../Companies/Companies';
 
 const Directory = () => (
   <div className="Directory">

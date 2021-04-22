@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import Person from '../../../components/Person/Person';
+import Person from '../../components/Person/Person';
 import './Persons.css';
 
 const Persons = () => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import Company from '../../../components/Company/Company';
+import Company from '../../components/Company/Company';
 import './Companies.css';
 
 const Companies = () => {
