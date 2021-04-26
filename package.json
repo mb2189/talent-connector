@@ -1,4 +1,8 @@
 {
-  "start": "server/server.js",
-  "heroku-postbuild": "cd server && npm install && cd ../client && npm install && npm run build"
+  "scripts": {
+    "start": "server/server.js",
+    "heroku-prebuild": "cd server",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "deploy:full": "git add . && git commit -m heroku && git push && git push heroku main"
+  }
 }
