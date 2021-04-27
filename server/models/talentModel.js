@@ -28,7 +28,7 @@ const personSchema = new mongoose.Schema({
   },
   linkedin: {
     type: String,
-    default: '',
+    default: 'https://www.linkedin.com/',
   },
 });
 
