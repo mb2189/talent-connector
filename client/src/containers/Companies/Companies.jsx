@@ -21,7 +21,7 @@ const Companies = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const URL = 'http://localhost:5000/api/v1/companies';
+      const URL = 'https://talent-connector.herokuapp.com/api/v1/companies';
 
       const res = await axios.get(URL);
       const data = res.data.data.companies;

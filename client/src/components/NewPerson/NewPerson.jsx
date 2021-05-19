@@ -22,7 +22,7 @@ const NewPerson = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const URL = 'http://localhost:5000/api/v1/talent';
+    const URL = 'https://talent-connector.herokuapp.com/api/v1/talent';
 
     axios.post(URL, person);
     e.target.reset();

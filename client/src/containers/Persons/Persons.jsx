@@ -21,7 +21,7 @@ const Persons = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const URL = 'http://localhost:5000/api/v1/talent';
+      const URL = 'https://talent-connector.herokuapp.com/api/v1/talent';
 
       const res = await axios.get(URL);
       const data = res.data.data.people;
